@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e7ac42-7a37-4461-b69c-09ee94e473b4" name="변경" comment="Post 등록, 수정, 조회 API 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/web/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/web/dto/PostsListResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tmkim/stock/web/IndexControllerTest.java" afterDir="false" />
+    <list default="true" id="61e7ac42-7a37-4461-b69c-09ee94e473b4" name="변경" comment="musatache 연동">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/domain/posts/PostsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/service/posts/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmkim/stock/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +90,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/stock-management/src/main/resources/templates&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,6 +103,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\stock-management\src\main\resources\templates" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
     </key>
@@ -295,7 +291,9 @@
       <workItem from="1691996195663" duration="2736000" />
       <workItem from="1692151035826" duration="7271000" />
       <workItem from="1692166188596" duration="4999000" />
-      <workItem from="1692247269412" duration="7376000" />
+      <workItem from="1692247269412" duration="8266000" />
+      <workItem from="1692314165640" duration="2522000" />
+      <workItem from="1692316922890" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary=".idea git ignore 등록">
       <created>1691993695075</created>
@@ -318,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692164390117</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="musatache 연동">
+      <created>1692258105196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692258105196</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +344,8 @@
     <MESSAGE value=".idea git ignore 등록" />
     <MESSAGE value="spring-data-jpa, h2 database 연동" />
     <MESSAGE value="Post 등록, 수정, 조회 API 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post 등록, 수정, 조회 API 추가" />
+    <MESSAGE value="mustache 연동" />
+    <MESSAGE value="musatache 연동" />
+    <option name="LAST_COMMIT_MESSAGE" value="musatache 연동" />
   </component>
 </project>
